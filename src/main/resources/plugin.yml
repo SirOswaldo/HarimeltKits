@@ -1,0 +1,58 @@
+main: net.harimelt.kits.HarimeltKits
+name: HarimeltKits
+version: 1.0.0
+api-version: 1.16
+softdepend:
+  - PlaceholderAPI
+commands:
+  HarimeltKits:
+    description: "Manage HarimeltKits plugin"
+  CreateKit:
+    description: CreateKit
+    aliases:
+      - crearkit
+  DeleteKit:
+    description: DeleteKit
+    aliases:
+      - eliminarkit
+      - borrarkit
+      - removerkit
+  EditKit:
+    description: EditKit
+    aliases:
+      - editarkit
+  ListKit:
+    description: ListKit
+    aliases:
+      - listarkits
+      - kits
+  ClaimKit:
+    description: ClaimKit
+    aliases:
+      - reclamarkit
+      - kit
+permissions:
+  harimelt.admin.kits:
+    default: op
+    description: Admin
+  harimelt.create.kit:
+    default: op
+    description: CreateKit
+  harimelt.delete.kit:
+    default: op
+    description: DeleteKit
+  harimelt.edit.kit:
+    default: op
+    description: EditKit
+  harimelt.list.kit:
+    default: true
+    description: ListKit
+  harimelt.claim.kit:
+    default: true
+    description: ClaimKit
+  harimelt.bypass.claim.time:
+    default: op
+    description: Bypass ClaimTime
+  harimelt.bypass.claim.one.time:
+    default: op
+    description: Bypass ClaimTime

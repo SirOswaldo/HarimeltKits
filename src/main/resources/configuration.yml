@@ -1,0 +1,46 @@
+# YAML, MYSQL
+storage: "YAML"
+mysql:
+  ip: ""
+  port: ""
+  username: ""
+  password: ""
+  database: ""
+  table: ""
+inventory:
+  kitEditor:
+    title: "Editor de Kit"
+    items:
+      panel:
+        material: "BLUE_STAINED_GLASS_PANE"
+        display-name: "&7"
+      claimTime:
+        material: "CLOCK"
+        display-name: "&fCambiar el tiempo de reclamación"
+        lore:
+          - "&f"
+          - "&fTime: %ClaimTime%"
+      items:
+        material: "CHEST"
+        display-name: "&fModificar Objetos"
+      giveOnJoinOn:
+        material: "RED_WOOL"
+        display-name: "&f"
+      giveonJoinOff:
+        material: "GREEN_WOOL"
+        display-name: "&f"
+      close:
+        material: "IRON_DOOR"
+        display-name: "&cCerrar Menú"
+  itemsEditor:
+    title: "Editor de Items"
+    items:
+      panel:
+        material: "BLUE_STAINED_GLASS_PANE"
+        display-name: "&7"
+      save:
+        material: "GREEN_WOOL"
+        display-name: "&aGuardar"
+      cancel:
+        material: "RED_WOOL"
+        display-name: "&cCancelar"

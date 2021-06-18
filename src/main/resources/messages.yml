@@ -1,0 +1,51 @@
+prefix: "&aHarimelt&2Kits &8»"
+CreateKit:
+  isConsole: "%prefix% &fNo puedes crear un kit desde la consola."
+  noPermission: "%prefix% &fNo tienes permitido la creación de kits."
+  kitNameEmpty: "%prefix% &fEl nombre del kit esta vacío."
+  kitAlreadyExist: "%prefix% &fEl kit &2%kit.name% &fya existe."
+  kitCreated: "%prefix% &fEl kit &2%kit.name%&f fue creado."
+  claimTimeIsNegative: "%prefix% &2ADVERTENCIA &fel tiempo de reclamación es negativo por lo que se estableció a &20&f."
+  claimTimeContainIllegalChars: "%prefix% &2ADVERTENCIA &fel tiempo de reclamación contiene caracteres ilegales por lo que se estableció a &20&f."
+DeleteKit:
+  noPermission: "%prefix% &fNo tienes permisos suficientes."
+  kitNameEmpty: "%prefix% &fEl nombre esta vacío."
+  kitNoExist: "%prefix% &fEl kit &2%kit.name% &fno existe."
+  kitDeleted: "%prefix% &fEliminaste el kit &2%kit.name%&f."
+EditKit:
+  isConsole: "%prefix% &fNo puedes editar un kit desde la consola."
+  noPermission: "%prefix% &fNo tienes permisos suficientes."
+  kitNameEmpty: "%prefix% &fEl nombre del kit esta vacío."
+  kitNoExist: "%prefix% &fEl kit &2%kitName% &fno existe."
+  menuClose: "%prefix% &fCerraste el menu de edición."
+  inputClaimTime:
+    - "%prefix% &fIngrese el tiempo en segundos en el chat."
+    - "&fRecuerde que puede establecerlo a &20 &fsi desea que el kit solo se pueda reclamar una única vez."
+    - "&fSi quieres cancelar debe agacharse."
+  claimTimeInvalid: "%prefix% &fEl tiempo de reclamación &2%claimTime% &fno es válido."
+ClaimKit:
+  isConsole: "%prefix% &fNo puedes reclamar un kit desde la consola."
+  noPermission: "%prefix% &fNo tienes permisos suficiente."
+  kitNameEmpty: "%prefix% &fNo puedes reclamar un kit sin nombre."
+  kitNoExist: "%prefix% &fEl kit &2%kit.name% &fno existe."
+  noKitPermission: "%prefix% &fNo tienes el poder suficiente pare poder reclamar el kit &2%kit.name%&f."
+  oneTimeClaimAlreadyTaken: "%prefix% &fYa reclamaste el &2%kit.name%&f una vez, ya no puedes reclamarlo de nuevo."
+  kitClaimed: "%prefix% &fReclamaste el kit &2%kit.name%&f."
+  needWaitToClaim: "%prefix% &fNecesitas esperar &2%seconds% segundos&f para poder reclamar el kit &2%kit.name%&f nuevamente."
+ListKit:
+  isEmpty: "%prefix% &fNo hay kits existentes."
+  header: "%prefix% &fLista de Kits"
+  format: "%kit.name% - %kit.claim.time%"
+  footer:
+    - "-------------------------"
+    - " NAME - CLAIM TIME"
+    - "-------------------------"
+Admin:
+  noPermission: "%prefix% &fNo tienes permisos suficiente."
+  optionIsEmpty: "%prefix% &fLa opción no puede estar vacía."
+  optionIsInvalid: "%prefix% &fLa opción no es válida."
+  pluginReloaded: "%prefix% &fEl complemento fue recargado."
+  help:
+    - "%prefix% &fAyuda de HarimeltKitsAdmin"
+    - " /%command% reload"
+    - "-------------------------------------"
